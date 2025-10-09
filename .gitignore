@@ -78,9 +78,9 @@ DerivedDataCache/*
 Content/Characters
 Content/Collections
 Content/Developers
-Content/Input
 Content/LevelPrototyping
 Content/ThirdPerson
 Content/Variant_Platforming
-
-
+Saved
+Intermediate
+DerivedDataCache
