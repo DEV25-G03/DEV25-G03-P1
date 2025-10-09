@@ -13,9 +13,10 @@ Los ficheros más importantes del proyecto están disponible en este repositorio
 
 Para este proyecto hace falta descargar los ficheros ZIP:
 
-- 
-- 
--
+- Characters
+- LevelPrototyping
+- ThirdPerson
+- Variant_Platforming
  
 # Preproducción
 
