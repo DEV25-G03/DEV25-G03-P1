@@ -73,3 +73,14 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Resources that are not formed as part of the practice
+Content/Characters
+Content/Collections
+Content/Developers
+Content/Input
+Content/LevelPrototyping
+Content/ThirdPerson
+Content/Variant_Platforming
+
+
