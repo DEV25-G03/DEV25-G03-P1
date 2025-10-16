@@ -7,7 +7,7 @@ Este proyecto está basado con el Unreal Engine 5.6 partiendo de la plantilla de
 El punto de partida propuesto para este proyecto, con la documentación e implementación (código y recursos audiovisuales) necesaria, se encuentra en este repositorio de GitHub: [Castle - Base](https://github.com/narratech/castle-base)
 
 # Asalto al Castillo
-Este proyecto consiste en desarrollar el prototipo ejecutable de un videojuego de plataformas 3D para jugador con mecánicas inspiradas en una TV show de El Castillo de Takeshi(Fūun! Takeshi Jō https://narratech.com/es/desarrollo-de-videojuegos-25-26/). Cual, tiene su Mecánica como siguiente.
+Este proyecto consiste en desarrollar el prototipo ejecutable de un videojuego de plataformas 3D para jugador con mecánicas inspiradas en una TV show de El Castillo de Takeshi([Fūun! Takeshi Jō]( https://narratech.com/es/desarrollo-de-videojuegos-25-26/)). Cual, tiene su Mecánica como siguiente.
 
 Mecánica:
 * En cada partida participaban entre 86 y 146 concursantes que eran guiados por el general Tani por los terrenos del castillo de Takeshi a través de un camino por el que se encontrarán una serie de pruebas físicas que sirven como obstáculos en el que, en cada una de ellas, cierto número de concursantes eran eliminados si no conseguían superarlas. Los concursantes que lograban superarlas y consiguieran llegar a las puertas del castillo, tenían que jugar una última prueba final para intentar ganar el premio final del programa. Estas pruebas aparecían secuencialmente en el programa de televisión, sin embargo los concursantes eran divididos en grupos y no eran obligados a pasar por todas las pruebas.
@@ -90,4 +90,9 @@ Suponiendo parametro de vida, si el avatar muere supondria "game over" y deberia
 
 # Mecanica
 
-# Contenido 1
+# Referencia
+
+[Fūun! Takeshi Jō]( https://narratech.com/es/desarrollo-de-videojuegos-25-26/)
+[Castle - Base](https://github.com/narratech/castle-base)
+
+
