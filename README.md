@@ -40,7 +40,7 @@ Y luego extraerlos dentro del archivo **Content**
 
 El diseño tiene estas secciones:
 
-- [Estetica]()
+- [Estetica](#Estetica)
     - [Grafico]()
     - [Sonido]()
 - [dinamica]()
@@ -51,13 +51,13 @@ El diseño tiene estas secciones:
 
 # Estetica
 
-El entorno virtual se basa en la plantilla Third Person que ofrece Unreal Engine, que recrea un mundo 3D con vista en tercera persona, a través de una cámara que sigue al avatar; además se incluye el contenido del paquete Starter Content.
+El entorno virtual se basa en la plantilla Third Person que ofrece Unreal Engine, que recrea un mundo 3D con vista en tercera persona, a través de una cámara que sigue al avatar; además se incluye el contenido del paquete Starter Content. 
 
-# Grafico
+## Grafico
 
 El juego usa solamente el contenido de la plantilla proporcinada por el profesor.
 
-# Sonido
+## Sonido
 
 Musica ambiente (opcional): Se desidira con el equipo de trabajo.
 
@@ -71,28 +71,45 @@ Victoria: Cuando el jugador completa el juego y obtiene el trofeo sonaran fuegos
 
 # Dinamica
 
-La dinamica del juego consiste en pasar todos los niveles hasta llegar al final, no hay limite de tiempo y la muerte unicamente supone volver al inicio del nivel y repetirlo.
+La dinamica del juego consiste en pasar todos las zonas hasta llegar al final, no hay limite de tiempo y la muerte no supone la final del juego.
 
-Posible mejora (a evaluar)
-Establecer tiempo para completar el juego.
-Establecer parametro de vidas hasta llegar a la muerte. 
+```mermaid
+flowchart TD
+    n2(["Start"]) --> D["Zone A"]
+    n3["Dead"] --> D
+    D --> n3 & n4["Zone B"]
+    n4 --> n5["Dead"] & n6["Zone C"]
+    n5 --> n7["check point"]
+    n6 --> n8["Dead"] & n9(["Victory"])
+    n7 --> n6 & n5
+    n8 --> n6
+    n3@{ shape: rounded}
+    n4@{ shape: rect}
+    n5@{ shape: rounded}
+    n6@{ shape: rect}
+    n7@{ shape: rect}
+    n8@{ shape: rounded}
+```
 
-# Objetivo
+## Objetivo
 
-El objetivo del juego es pasar por todas las pruebas hasta conseguir el trofeso que se encuentra en lo más alto del castillo.
+El objetivo del juego es pasar por todas las pruebas hasta llegar a la corazón del castillo.
 
-# Castigo
+## Castigo
 
-El jugador solo puede morir en el caso de ser golpeado por barriles o balas de cañon. Cuando esto pase, volverá al inicio del nivel. En el caso de caer al foso, se le ha proporcionado unas rampas para volver al principio de la prueba en la que se ha caido, con lo que es un castigo mucho más leve.
-
+El jugador puede morirse en el caso de ser golpeado por barriles o balas de cañon, o caido en la agua. Cuando esto pase, volverá al inicio del nivel o al checkpoint depende de la zona que está el jugador.
 Posible mejora (a evaluar)
 Suponiendo parametro de vida, si el avatar muere supondria "game over" y deberia reiniciar desde el principio.
+
+# Contenido
+
 
 # Mecanica
 
 # Referencia
 
 [Fūun! Takeshi Jō]( https://narratech.com/es/desarrollo-de-videojuegos-25-26/)
+
 [Castle - Base](https://github.com/narratech/castle-base)
 
 
