@@ -48,9 +48,9 @@ El diseño tiene estas secciones:
     - [Castigo](#Castigo)
 - [Mecanica](#Mecanica)
 - [Contenido](#Contenido)
-    - [Zona A](#Zona_A)
-    - [Zona B](#Zona_B)
-    - [Zona C](#Zona_C)
+    - [Zona A](#Zona-A)
+    - [Zona B](#Zona-B)
+    - [Zona C](#Zona-C)
 
 # Estetica
 
