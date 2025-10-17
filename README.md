@@ -48,6 +48,9 @@ El diseño tiene estas secciones:
     - [Castigo](#Castigo)
 - [Mecanica](#Mecanica)
 - [Contenido](#Contenido)
+    - [Zona A](#Zona_A)
+    - [Zona B](#Zona_B)
+    - [Zona C](#Zona_C)
 
 # Estetica
 
@@ -113,13 +116,44 @@ El clásico maniquí de Unreal Engine que se puede mover y saltar es el avatar q
 
 Son unos objetos de forma pastilla, cual dará una habilidad de super salto, y se desaparece una vez sido tomada.
 
+## El gran lingote dorado
+
+Es el objeto con cual se gana el jugador.
+
 # Contenido
 
 A continuación se muestra las escenas del juego.
 
 ## Zona A
 
-# Mecanica
+La primera zona del juego es un exterior con agua y consiste en cruzar el foso del castillo dando saltos sobre gruesos troncos que flotan sobre el agua, moviéndose lentamente bajo nuestros pies. Si el avatar cae al agua, muere pero reaparece al principio
+
+```mermaid
+flowchart LR
+    A(["Start"]) --> C@{ label: "<span style=\"box-sizing:\">El foso del castillo</span>" }
+    C --> D["La muralla del castillo"]
+    C@{ shape: rect}
+```
+
+## Zona B
+
+La segunda zona consiste en escalar la muralla del castillo aprovechando sus salientes, siendo necesario el uso de pastillas para saltar entre ciertas plataformas. Aunque prime la verticalidad, conviene dividir la escalada en partes, de modo que si el avatar cae, sólo tiene que repetir la escalada de la última parte. Algún saliente estará dañado y se romperá si el avatar lo pisa.
+
+```mermaid
+flowchart LR
+    D["La muralla del castillo"] --> n1["Escalares o truncos que direge hacia la correzáon el castillo"]
+    n1 --> n2["El corrazón del castillo"]
+```
+
+## Zona C
+
+La tercera y última zona es un interior y consiste en atravesar las estancias interiores hasta el corazón del castillo, con varias puertas y algunas trampas. No hay “enemigos” como tales, sólo objetos con movimiento que resultan molestos e incluso mortales para el jugador, y las llaves de las puertas mencionadas anteriormente. Si el avatar muere, será necesario repetir la zona. Finalmente al coger el gran lingote dorado en el interior del castillo, la partida termina.
+
+```mermaid
+flowchart LR
+    n2["El corrazón del castillo"] --> n3["Laberinto"]
+    n3 --> n4["El gran lingote dorado, dentro de todo"]
+```
 
 # Referencia
 
