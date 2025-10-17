@@ -41,13 +41,13 @@ Y luego extraerlos dentro del archivo **Content**
 El diseño tiene estas secciones:
 
 - [Estetica](#Estetica)
-    - [Grafico]()
-    - [Sonido]()
-- [dinamica]()
-    - [Objetivo]()
-    - [Castigo]()
-- [Mecanica]()
-- [Contenido 1]()
+    - [Grafico](#Grafico)
+    - [Sonido](#Sonido)
+- [Dinamica](#Dinamica)
+    - [Objetivo](#Objetivo)
+    - [Castigo](#Castigo)
+- [Mecanica](#Mecanica)
+- [Contenido](#Contenido)
 
 # Estetica
 
@@ -103,6 +103,21 @@ Suponiendo parametro de vida, si el avatar muere supondria "game over" y deberia
 
 # Contenido
 
+A continuación se muestra los componentes del juego.
+
+## Avatar(caracter controlado por el jugador)
+
+El clásico maniquí de Unreal Engine que se puede mover y saltar es el avatar que controla el jugador.
+
+## Pastillas energéticas
+
+Son unos objetos de forma pastilla, cual dará una habilidad de super salto, y se desaparece una vez sido tomada.
+
+# Contenido
+
+A continuación se muestra las escenas del juego.
+
+## Zona A
 
 # Mecanica
 
