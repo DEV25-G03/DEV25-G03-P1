@@ -62,15 +62,7 @@ El juego usa solamente el contenido de la plantilla proporcinada por el profesor
 
 ## Sonido
 
-Musica ambiente (opcional): Se desidira con el equipo de trabajo.
-
-Pastilla energetica: Cuando el jugador coja una pastilla sonara "sonido aun no definido".
-
-Llaves: Cuando el jugador coja una pastilla sonara "sonido aun no definido".
-
-muerte: Si el usuario muere sonara "sonido aun no definido".
-
-Victoria: Cuando el jugador completa el juego y obtiene el trofeo sonaran fuegos artificiales estallando. 
+Debido a la falta de tiempo, hemos decidido a no implenmentar sonido en este poyecto.
 
 # Dinamica
 
