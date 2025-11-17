@@ -154,8 +154,12 @@ flowchart LR
 [Castle - Base](https://github.com/narratech/castle-base)
 
 # Video demo
+
+Puede verse en el siguiente enlace de youtube:
+https://youtu.be/oHOIWi1XPm0
+
+Puede descargarse en el siguiente enlace:
 https://drive.google.com/drive/folders/14ALIV9pRV7xGzeA53S0Z2yKjn5nXuOZI?usp=sharing
 
-El enlace contiene videos de visibilidad de todos los escenarios y videos de jugabilidad
 
 
